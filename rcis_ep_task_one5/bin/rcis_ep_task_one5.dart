@@ -1,30 +1,29 @@
 import 'package:rcis_ep_task_one5/rcis_ep_task_one5.dart' as rcis_ep_task_one5;
 
-import 'package:rcis_ep_task_one5/rcis_ep_task_one5.dart' as rcis_ep_task_one5;
-import 'dart:io';
+//import 'dart:io';
 
 // zadanie 1 (1.5)
 
-void main() {
-  List<String> input = File("numsTask1.txt").readAsLinesSync();
-  for (var h in input) {
-    input = h.split(', ');
-  }
-  List<int> num = input.map(int.parse).toList();
-  int min = num[0];
-  int index = 0;
-  for (int i = 1; i < num.length; i++) {
-    if (num[i] < min) {
-      min = num[i];
-      index = i;
-    }
-  }
-  int proizved = 1;
-  for (int i = index + 1; i < num.length; i++) {
-    proizved *= num[i];
-  }
-  print("Произведение равно: $proizved");
-}
+// void main() {
+//   List<String> input = File("numsTask1.txt").readAsLinesSync();
+//   for (var h in input) {
+//     input = h.split(', ');
+//   }
+//   List<int> num = input.map(int.parse).toList();
+//   int min = num[0];
+//   int index = 0;
+//   for (int i = 1; i < num.length; i++) {
+//     if (num[i] < min) {
+//       min = num[i];
+//       index = i;
+//     }
+//   }
+//   int proizved = 1;
+//   for (int i = index + 1; i < num.length; i++) {
+//     proizved *= num[i];
+//   }
+//   print("Произведение равно: $proizved");
+// }
 
 
 // zadanie 2 (1.5)

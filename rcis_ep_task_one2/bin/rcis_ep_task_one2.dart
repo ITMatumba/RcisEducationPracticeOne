@@ -1,17 +1,17 @@
 import 'package:rcis_ep_task_one2/rcis_ep_task_one2.dart' as rcis_ep_task_one2;
 
 // zadanie 1 (practica 2)
-import 'dart:io';
-import 'dart:math';
-void main() {
-  int a = 1;
-  List<int> nums = List.filled(100, 0);
-  for (int i = 0; i < nums.length; i++) {
-    nums[i] = a - 3;
-    a -= 3;
-  }
-  print(nums);
-}
+// import 'dart:io';
+// import 'dart:math';
+// void main() {
+//   int a = 1;
+//   List<int> nums = List.filled(100, 0);
+//   for (int i = 0; i < nums.length; i++) {
+//     nums[i] = a - 3;
+//     a -= 3;
+//   }
+//   print(nums);
+// }
 
 
 // zadanie 2 (practica 2)

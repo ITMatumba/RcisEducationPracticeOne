@@ -1,22 +1,22 @@
 import 'package:rcis_ep_task_one1/rcis_ep_task_one1.dart' as rcis_ep_task_one1;
 
 // zadanie 1
-import 'dart:io';
-import 'dart:math';
+// import 'dart:io';
+// import 'dart:math';
 
-void main() {
-  int min = 11;
-  int index = 0;
-  List<int> nums = List.generate(10, (i) => (Random().nextInt(10)));
-  for (int i = 0; i < nums.length; i++) {
-    if (min > nums[i]) {
-      min = nums[i];
-      index = i;
-    }
-  }
-  print(nums);
-  print('$index');
-}
+// void main() {
+//   int min = 11;
+//   int index = 0;
+//   List<int> nums = List.generate(10, (i) => (Random().nextInt(10)));
+//   for (int i = 0; i < nums.length; i++) {
+//     if (min > nums[i]) {
+//       min = nums[i];
+//       index = i;
+//     }
+//   }
+//   print(nums);
+//   print('$index');
+// }
 
 //zadanie 2
 // import 'dart:io';

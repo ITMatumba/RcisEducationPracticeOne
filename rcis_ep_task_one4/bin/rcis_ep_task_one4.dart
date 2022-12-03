@@ -1,21 +1,21 @@
 import 'package:rcis_ep_task_one4/rcis_ep_task_one4.dart' as rcis_ep_task_one4;
 
-import 'dart:io';
-import 'dart:core';
+// import 'dart:io';
+// import 'dart:core';
 
 //zadanie 1 (1.4)
 
-void main() {
-  stdout.write('Ввeдите число: ');
-  int n = int.parse(stdin.readLineSync()!);
-  int c = 1;
-  for (int i = 1; i <= n; i++) {
-    if ((i % 3) == 0) {
-      c *= i;
-    }
-  }
-  print(c);
-}
+// void main() {
+//   stdout.write('Ввeдите число: ');
+//   int n = int.parse(stdin.readLineSync()!);
+//   int c = 1;
+//   for (int i = 1; i <= n; i++) {
+//     if ((i % 3) == 0) {
+//       c *= i;
+//     }
+//   }
+//   print(c);
+// }
 
 
 //zadanie 2 (1.4)
